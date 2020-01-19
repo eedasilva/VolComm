@@ -46,8 +46,7 @@ const setupEvents = data => {
 
     eventList.innerHTML = html;
   } else {
-    eventList.innerHTML =
-      '<h5 class="center-align">Login in to view your events.</h5>';
+    eventList.innerHTML = '<h5 class="center-align"></h5>';
   }
 };
 
